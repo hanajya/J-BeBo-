@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/web/application" isTestSource="false" packagePrefix="app\" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/cache/adapter-common" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/cache/filesystem-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/cache/tag-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/easywechat-composer/easywechat-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/jaeger/g-http" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/jaeger/phpquery-single" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/jaeger/querylist" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/jaeger/querylist-phantomjs" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/jakoch/phantomjs-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/jonnyw/php-phantomjs" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/overtrue/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/overtrue/wechat" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/pimple/pimple" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/tightenco/collect" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/topthink/think-captcha" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/topthink/think-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/topthink/think-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/web/vendor/twig/twig" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

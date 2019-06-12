@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/web/vendor/composer" />
+      <path value="$PROJECT_DIR$/web/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/web/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/web/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/web/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/web/vendor/easywechat-composer/easywechat-composer" />
+      <path value="$PROJECT_DIR$/web/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/web/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/web/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/web/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/web/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/web/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/web/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/web/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/web/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/web/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/web/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/web/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/web/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/web/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/web/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/web/vendor/jonnyw/php-phantomjs" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/web/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/web/vendor/cache/adapter-common" />
+      <path value="$PROJECT_DIR$/web/vendor/cache/filesystem-adapter" />
+      <path value="$PROJECT_DIR$/web/vendor/cache/tag-interop" />
+      <path value="$PROJECT_DIR$/web/vendor/jaeger/phpquery-single" />
+      <path value="$PROJECT_DIR$/web/vendor/jaeger/querylist" />
+      <path value="$PROJECT_DIR$/web/vendor/jakoch/phantomjs-installer" />
+      <path value="$PROJECT_DIR$/web/vendor/jaeger/g-http" />
+      <path value="$PROJECT_DIR$/web/vendor/jaeger/querylist-phantomjs" />
+      <path value="$PROJECT_DIR$/web/vendor/topthink/think-captcha" />
+    </include_path>
+  </component>
+</project>
