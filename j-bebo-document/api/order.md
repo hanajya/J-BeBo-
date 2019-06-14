@@ -126,3 +126,55 @@
     }
 }
 ```
+
+### 4.2.创建订单 {#create-order}
+### 请求路径
+`POST /api/create-order`
+### 请求参数
+|参数名|位置|类型|必须|说明|
+|:----:|:----:|:----:|:----:|:-------:|
+|sku_arr.sku_id|body|array|Y|单个或多个sku_id|
+|sku_arr.num|body|array|Y|单个可多个商品数量|
+|address_id|body|int|Y|地址ID|
+### 返回参数
+无
+### 参数传递示例 
+```json
+"sku_arr":[{
+        "sku_id":1,
+        "num":2
+    },{
+        "sku_id":2,
+        "num":1
+    },{
+
+        "sku_id":3,
+        "num":2
+    },{
+        "sku_id":4,
+        "num":1
+}]
+"address_id":1
+```
+
+###返回示例
+```json
+{
+    "status": 200,
+    "message": "",
+}
+```
+
+### 4.3.我的订单列表【未完成】 {#order-list}
+### 请求路径
+`GET /api/order-list`
+### 请求参数
+|参数名|位置|类型|必须|说明|
+|:----:|:----:|:----:|:----:|:-------:|
+|order_status|body|int|Y|用户端订单状态 未支付0 已支付1,2,3 已完成4|
+### 返回参数
+
+### 返回示例
+
+
+

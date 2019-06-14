@@ -21,6 +21,8 @@
 	* [3.4.购物车商品数量增减](api/cart.md#num-change)
 * [4.订单模块](api/order.md)
 	* [4.1.订单确认页](api/order.md#confirm-order)
+	* [4.2.创建订单](api/order.md#create-order)
+	* [4.3.订单列表](api/order.md#order-list)
 * [5.收货地址模块](api/address.md)
 	* [5.1.收货地址列表](api/address.md#address-list)
 	* [5.2.添加或编辑收货地址](api/address.md#set-address)

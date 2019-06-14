@@ -26,7 +26,7 @@
 ```
 ## 1.2.注册时的图形验证码 {#captcha}
 ### 请求路径
-`GET /api/capcha`
+`GET /api/captcha`
 ### 请求参数
 无
 ### 返回示例

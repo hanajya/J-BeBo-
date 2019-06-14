@@ -368,6 +368,32 @@
             
         </li>
     
+        <li class="chapter " data-level="1.5.2" data-path="order.html">
+            
+                <a href="order.html#create-order">
+            
+                    
+                    4.2.创建订单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="order.html">
+            
+                <a href="order.html#order-list">
+            
+                    
+                    4.3.订单列表
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -542,7 +568,7 @@
 </code></pre>
 <h2 id="captcha">1.2.&#x6CE8;&#x518C;&#x65F6;&#x7684;&#x56FE;&#x5F62;&#x9A8C;&#x8BC1;&#x7801; </h2>
 <h3 id="&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;">&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;</h3>
-<p><code>GET /api/capcha</code></p>
+<p><code>GET /api/captcha</code></p>
 <h3 id="&#x8BF7;&#x6C42;&#x53C2;&#x6570;">&#x8BF7;&#x6C42;&#x53C2;&#x6570;</h3>
 <p>&#x65E0;</p>
 <h3 id="&#x8FD4;&#x56DE;&#x793A;&#x4F8B;">&#x8FD4;&#x56DE;&#x793A;&#x4F8B;</h3>
@@ -730,6 +756,87 @@
     <span class="hljs-string">&quot;message&quot;</span>: <span class="hljs-string">&quot;&#x5BC6;&#x7801;&#x4FEE;&#x6539;&#x6210;&#x529F;&quot;</span>
 }
 </code></pre>
+<h2 id="setting-pwd">1.7 &#x8BBE;&#x7F6E;&#x767B;&#x9646;&#x5BC6;&#x7801; </h2>
+<h3 id="&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;">&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;</h3>
+<p><code>POST /api/setting-pwd</code></p>
+<h3 id="&#x8BF7;&#x6C42;&#x53C2;&#x6570;">&#x8BF7;&#x6C42;&#x53C2;&#x6570;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x53C2;&#x6570;&#x540D;</th>
+<th style="text-align:center">&#x4F4D;&#x7F6E;</th>
+<th style="text-align:center">&#x7C7B;&#x578B;</th>
+<th style="text-align:center">&#x5FC5;&#x987B;</th>
+<th style="text-align:center">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">old_password</td>
+<td style="text-align:center">body</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">&#x65E7;&#x5BC6;&#x7801;</td>
+</tr>
+<tr>
+<td style="text-align:center">new_password</td>
+<td style="text-align:center">body</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">&#x65B0;&#x5BC6;&#x7801;</td>
+</tr>
+<tr>
+<td style="text-align:center">confirm_password</td>
+<td style="text-align:center">body</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">&#x786E;&#x8BA4;&#x5BC6;&#x7801;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x8FD4;&#x56DE;&#x793A;&#x4F8B;">&#x8FD4;&#x56DE;&#x793A;&#x4F8B;</h3>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;status&quot;</span>: <span class="hljs-number">200</span>,
+    <span class="hljs-string">&quot;message&quot;</span>: <span class="hljs-string">&quot;&#x8BBE;&#x7F6E;&#x5BC6;&#x7801;&#x6210;&#x529F;&quot;</span>
+}
+</code></pre>
+<h2 id="replace-phone">1.8 &#x66F4;&#x6539;&#x624B;&#x673A;&#x53F7; </h2>
+<h3 id="&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;">&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;</h3>
+<p><code>POST /api/replace-phone</code></p>
+<h3 id="&#x8BF7;&#x6C42;&#x53C2;&#x6570;">&#x8BF7;&#x6C42;&#x53C2;&#x6570;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x53C2;&#x6570;&#x540D;</th>
+<th style="text-align:center">&#x4F4D;&#x7F6E;</th>
+<th style="text-align:center">&#x7C7B;&#x578B;</th>
+<th style="text-align:center">&#x5FC5;&#x987B;</th>
+<th style="text-align:center">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">mobile</td>
+<td style="text-align:center">body</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">&#x65E7;&#x5BC6;&#x7801;</td>
+</tr>
+<tr>
+<td style="text-align:center">mobile</td>
+<td style="text-align:center">body</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">&#x65B0;&#x5BC6;&#x7801;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x8FD4;&#x56DE;&#x793A;&#x4F8B;">&#x8FD4;&#x56DE;&#x793A;&#x4F8B;</h3>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;status&quot;</span>: <span class="hljs-number">200</span>,
+    <span class="hljs-string">&quot;message&quot;</span>: <span class="hljs-string">&quot;&#x66F4;&#x6539;&#x624B;&#x673A;&#x53F7;&#x6210;&#x529F;&quot;</span>
+}
+</code></pre>
 
                                 
                                 </section>
@@ -773,7 +880,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.用户模块","level":"1.2","depth":1,"next":{"title":"1.1.发送验证码","level":"1.2.1","depth":2,"anchor":"#send-code","path":"api/user.md","ref":"api/user.md#send-code","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api/user.md","mtime":"2019-06-04T03:00:42.503Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-11T01:12:15.383Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.用户模块","level":"1.2","depth":1,"next":{"title":"1.1.发送验证码","level":"1.2.1","depth":2,"anchor":"#send-code","path":"api/user.md","ref":"api/user.md#send-code","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api/user.md","mtime":"2019-06-14T09:48:05.980Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-14T01:01:31.786Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
