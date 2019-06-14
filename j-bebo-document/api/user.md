@@ -116,3 +116,43 @@
     "message": "密码修改成功"
 }
 ```
+
+
+
+##1.7 设置登陆密码 {#setting-pwd}
+### 请求路径
+`POST /api/setting-pwd`
+### 请求参数
+|参数名|位置|类型|必须|说明|
+|:----:|:----:|:----:|:----:|:-------:|
+|old_password|body|string|Y|旧密码|
+|new_password|body|string|Y|新密码|
+|confirm_password|body|string|Y|确认密码|
+###返回示例
+
+```json
+{
+    "status": 200,
+    "message": "设置密码成功"
+}
+```
+
+
+##1.8 更改手机号 {#replace-phone}
+### 请求路径
+`POST /api/replace-phone`
+### 请求参数
+|参数名|位置|类型|必须|说明|
+|:----:|:----:|:----:|:----:|:-------:|
+|mobile|body|string|Y|旧密码|
+|mobile|body|string|Y|新密码|
+###返回示例
+
+```json
+{
+    "status": 200,
+    "message": "更改手机号成功"
+}
+```
+
+
