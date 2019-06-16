@@ -155,4 +155,22 @@
 }
 ```
 
+##1.9 在线留言 {#save-message}
+### 请求路径
+`POST /api/save-message`
+### 请求参数
+|参数名|位置|类型|必须|说明|
+|:----:|:----:|:----:|:----:|:-------:|
+|name|body|string|N|姓名|
+|mobile|body|string|Y|手机号|
+|email|body|string|N|邮箱|
+|address|body|string|N|地址|
+###返回示例
+
+```json
+{
+    "status": 200,
+    "message": "留言成功"
+}
+```
 
